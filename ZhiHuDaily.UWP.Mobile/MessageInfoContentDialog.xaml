@@ -1,0 +1,20 @@
+﻿<ContentDialog
+    x:Class="ZhiHuDaily.UWP.Mobile.MessageInfoContentDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ZhiHuDaily.UWP.Mobile"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="华帝智能-提示"
+    
+    PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+    SecondaryButtonClick="ContentDialog_SecondaryButtonClick">
+
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        <StackPanel>
+            <TextBlock Text="设备名称输入有误，请重新输入："></TextBlock>
+            <Button Content="确定" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,100,0,0" Click="Button_Click" ></Button>
+        </StackPanel>
+    </Grid>
+</ContentDialog>
